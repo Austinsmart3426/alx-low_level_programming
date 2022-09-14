@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  *  main - Enty point
+ *  *  main - sizes of various types
  *   *
  *    *  Return: Always 0 (Success)
- *     */
+ */
 
 int main(void)
 {
