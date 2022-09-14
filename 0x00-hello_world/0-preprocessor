@@ -1,2 +1,2 @@
 #!/bin/bash#
-ngcc -E $CFILE -o c
+ngcc -E $CFILE -o main.c
