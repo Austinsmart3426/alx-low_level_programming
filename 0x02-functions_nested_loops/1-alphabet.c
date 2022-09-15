@@ -1,16 +1,19 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * Description - function to prints abc
- *
- * Return: 0
+ *  * print_alphabet - Entry point
+ *   * Description: a function that prints the alphabet,
+ *    * in lowecase followed by a new line
+ *     * Return: void
  */
 void print_alphabet(void)
 {
-	char c;
+	char letter = 'a';
 
-	for (c - 'a'; c <= 'z'; c++)
+	while (letter <= 'z')
 	{
-		_putchar(c);
+	_putchar(letter);
+	letter++;
 	}
-_putchar('\n');
+	_putchar('\n');
 }
