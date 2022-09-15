@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  * main -Write a program that prints all the numbers of base 16
+ *  * main -Entry point
  *   * Return: Always 0 (Success)
  */
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 	else
 	{
 	putchar(c);
-	c++
+	c++;
 	}
 	}
 	putchar('\n');
