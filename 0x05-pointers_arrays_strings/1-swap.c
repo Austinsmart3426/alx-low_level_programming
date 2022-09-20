@@ -2,8 +2,9 @@
 
 /**
  * a function that swaps the values of two integer
+ * swap_int - swaps interger
  * @a: parameter a
- *   * @b: parameter b
+ * @b: parameter b
  *
  *Return: 0
  */
