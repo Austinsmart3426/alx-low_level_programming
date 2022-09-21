@@ -1,10 +1,12 @@
 #ifndef "MAIN_H_INCLUDED"
 #define "MAIN_H_INCLUDED"
 
-/*main.h file for 0x06. C - More pointers, arrays and strings
+/**
+ * main.h file for 0x06. C - More pointers, arrays and strings
  * Description: Contains all prototype functions used
  * Return: always 0
  */
+
 int main(void);
 int _putchar(char c)
 char *_strcat(char *dest, char *src);
