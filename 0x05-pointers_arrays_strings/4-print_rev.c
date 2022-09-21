@@ -1,9 +1,23 @@
 #include "main.h"
-int main(void)
-{
-	char *str;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
-	return (0);
+/**
+ *  * print_rev - a function tha
+ *  t prints a string in reverse, followed by a new line
+ *   * @s: string for printing
+ */
+	void print_rev(char *s)
+{
+	int i, j, len;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+	i++;
+	}
+	len = i;
+	for (j = len - 1; j >= 0; j--)
+	{
+	_putchar(s[j]);
+	}
+	_putchar('\n');
 }
