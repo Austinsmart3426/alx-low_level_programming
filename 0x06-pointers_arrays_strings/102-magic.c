@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+	int main(void)
 {
 	int n;
 	int a[5];
@@ -15,8 +15,8 @@ int main(void)
 * You are not allowed to modify the variable p
 * You can only write one statement
 * Your code should be written at line 19, before the ;
-*/	
-	*(p + 5) = 98;
+*/
+*(p + 5) = 98;
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
