@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- *_sqrt_recursion - finds the natural sqrt of a number
+ * _sqrt_recursion - A function that finds the natural sqrt of a number
  * @n: integer
  * Return: n
  */
-	int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
 /**
- * square - To get the square root
- * @n: integer value of square root
- * @val: square root
+ * square - fid square root
+ * @n: int to find sqrt
+ * @val: sqrt
  * Return: int
  */
-	int square(int n, int val)
+int square(int n, int val)
 {
 	if (val * val == n)
 	return (val);
