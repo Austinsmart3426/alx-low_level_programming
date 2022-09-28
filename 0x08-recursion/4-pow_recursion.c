@@ -2,7 +2,7 @@
 /**
  *_pow_recursion - A function that returns
  the value of x**y.
- * @  x: value
+ * @x: value
  * @y: power
  * Return: y < 0 = -1, x**y = 0
  */
