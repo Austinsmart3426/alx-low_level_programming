@@ -6,7 +6,7 @@
  * create_array - A function that creates an array of chars,
  * and initializes it with a specific char.
  * @size: size of array for the program
- * @c: character data type 
+ * @c: character data type
  * Return: character created,
  * or NULL on error
  */
