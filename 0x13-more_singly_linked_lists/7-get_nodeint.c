@@ -11,13 +11,17 @@ k#include <stdlib.h>
  */
 	listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int node;
+	unsigned int count = 0;
 
-	for (node = 0; node < index; node++)
+	if (head)
 	{
-	if (head == NULL)
-	return (NULL);
-	head = head->next;
-	}
+	while (head)
+	{
+	if (count == index)
 	return (head);
+	head = head->next;
+	count++;
+	}
 }
+
+	return (NULL);
