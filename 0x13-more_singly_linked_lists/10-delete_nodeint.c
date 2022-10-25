@@ -10,7 +10,7 @@
  * Return: 1 if it succeeded, -1 if it failed
  */
 	int delete_nodeint_at_index(listint_t **head, unsigned int index)
-i{
+{
 	unsigned int count = 1;
 	listint_t *new = *head, *temp;
 
